@@ -60,6 +60,9 @@ function majAffichage () {
 		document.getElementById("affichage").innerHTML = "Victoire du joueur "+joueur+" !";
 		animationVictoire ();
 	}
+	else if (!win && casesJouees.length==9) {
+		document.getElementById("affichage").innerHTML = "Egalite entre les joueurs !";
+	}
 	else if (joueur==1) {
 		document.getElementById("affichage").innerHTML = "Tour du joueur 2";
 	}
@@ -105,3 +108,24 @@ function printConsole () {
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+
+// -------------------- PARTIE IA --------------------
+/*
+function Noeud (feuille) {
+	this.feuille;	// True si la partie est finie ou si pas de fils
+
+
+}
+
+
+function calculValeurNoeud (noeud) {
+	if (noeud.feuille) return eval(noeud);
+	else if (noeud.max) return maximum eval (fils du noeud);
+	else if (noeud.min) return minimum eval (fils du noeud);
+}
+
+// -1 si IA perd ; 1 si IA gagne ; 0 sinon
+function eval () {
+
+}*/

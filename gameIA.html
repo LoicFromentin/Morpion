@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/icon.jpg">
+
+    <title>Morpion's Game</title>
+
+    <!-- Ajout CSS -->
+    <link href="./css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+    	<h1>Morpion</h1>
+    	<h2 id="affichage">Tour du Joueur 1</h2>
+    </header>
+
+    <main role="main">
+
+
+    	<div id="divPlateau">
+    		<table>
+	    		<tr>
+	    			<td id="0" onclick="action(0);"></td>
+	    			<td id="1" onclick="action(1);"></td>
+	    			<td id="2" onclick="action(2);"></td>
+	    		</tr>
+	    		<tr>
+	    			<td id="3" onclick="action(3);"></td>
+	    			<td id="4" onclick="action(4);"></td>
+	    			<td id="5" onclick="action(5);"></td>
+	    		</tr>
+	    		<tr>
+	    			<td id="6" onclick="action(6);"></td>
+	    			<td id="7" onclick="action(7);"></td>
+	    			<td id="8" onclick="action(8);"></td>
+	    		</tr>
+    		</table>
+    	</div>
+
+
+
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
