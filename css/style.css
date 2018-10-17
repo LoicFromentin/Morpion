@@ -1,0 +1,74 @@
+/* COULEURS :
+	- #151515 : gris fonce
+	- #A4A4A4 : blanc un peu fonce;
+*/
+
+body {
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+/* ---------- Header ---------- */
+h1 {
+	font-family: 'font';
+	font-size: 8vh;
+	text-align: center;
+	text-shadow: #A4A4A4 0.1em 0.1em 0.4em;
+	margin-top: 1vh;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	font-family: 'font';
+	font-size: 5vh;
+	text-align: center;
+	text-shadow: #A4A4A4 0.1em 0.1em 0.8em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	margin-bottom: 6vh;
+}
+/* ---------- Fin Header ---------- */
+
+/* ---------- Plateau+Cases ---------- */
+#divPlateau {
+	width: 45vw;
+	height: 30vw;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+	table {
+		width: 45vw;
+		height: 30vw;
+		border-collapse: collapse;
+		border: 0.3vw solid black;
+	}
+
+	td {
+		background-color: white;
+		width: 15vw;
+		height: 10vw;
+		border: 0.3vw solid black;
+	}
+
+	.signe {
+		text-align: center;
+		padding: none;
+		width: 60%;
+		height:80%;
+		/*
+		height: 9vw;
+		width: 12vw;*/
+	}
+/* ---------- Fin Plateau+Cases ---------- */
+
+@font-face {
+	font-family: 'font';
+	src: url('../font/Gameplay.ttf') format('truetype');
+}
